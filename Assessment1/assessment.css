@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+#section{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(31, 194, 219);   
+}
+.section-wrapper{
+    padding-top: 20px;
+}
+.container{
+    width: 900PX;
+    margin: 0 auto;
+}
+h1{
+    text-transform: uppercase;
+}
+.address{
+    background-color: white;
+    padding: 5px 10px;
+}
+p{
+    font-size: 20px;
+}
+.margin{
+    margin: 20px 0px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.add{
+    padding-top: 10px;
+}
+.col-30{
+    width: 33.33%;
+}
+.tel{
+    color: red;
+    padding: 5px 0px;
+}
+.mail{
+    color:  rgb(31, 194, 219);
+}
+.center{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.col-50{
+    width: 50%;
+}
+input{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+textarea{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+button{
+    padding: 8px 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: red;
+    color: aliceblue;
+    border: 2px solid red;
+}
+.icon{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.fa-square-facebook{
+    color: rgb(73, 73, 165);
+}
+.fa-square-twitter{
+    color: rgb(85, 158, 226);
+}
+.fa-linkedin{
+    color: rgb(39, 91, 140);
+}
